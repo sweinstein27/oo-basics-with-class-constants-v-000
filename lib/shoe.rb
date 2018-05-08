@@ -8,6 +8,7 @@ class Shoe
     @brand = brand
     if BRANDS.none?(brand)
       BRANDS << brand
+    end
   end
 
 
